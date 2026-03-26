@@ -15,12 +15,13 @@ description = "Simple Telegram Bot API wrapper for MicroPython"
 readme = "README.md"
 classifiers = [
     "Programming Language :: Python :: Implementation :: MicroPython",
-    "License :: OSI Approved :: MIT License",
     "Framework :: AsyncIO",
     "Topic :: Communications :: Chat",
     "Operating System :: OS Independent",
     "Environment :: Other Environment",
 ]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
 
 [project.urls]
 "Homepage" = "https://github.com/aliakseych/telemicro"

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["telemicro"]
+
+[project]
+name = "telemicro"
+version = "1.0.0"
+authors = [
+  { name="Alex", email="aliakseych@gmail.com" },
+]
+description = "Simple Telegram Bot API wrapper for MicroPython"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: Implementation :: MicroPython",
+    "License :: OSI Approved :: MIT License",
+    "Framework :: AsyncIO",
+    "Topic :: Communications :: Chat",
+    "Operating System :: OS Independent",
+    "Environment :: Other Environment",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/aliakseych/telemicro"
+"Bug Tracker" = "https://github.com/aliakseych/telemicro/issues"
